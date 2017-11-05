@@ -1,5 +1,5 @@
 pipeline  {
-	def nuget = 'C:\Program Files (x86)\NuGet\nuget.exe'
+	def nuget = 'C:/Program Files (x86)/NuGet/nuget.exe'
 
 	agent any
 	stages {
