@@ -1,8 +1,8 @@
 pipeline  {
-	agent any
 	environment {
 		nuget = 'C:/Program Files (x86)/NuGet/nuget.exe'
 	}
+	agent any
 	stages {
 		stage('Checkout') {
 			steps {
